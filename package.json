@@ -1,8 +1,21 @@
 {
 	"name": "toss-es-toolkit-start",
 	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
 	"dependencies": {
+		"@types/jest": "^29.5.12",
 		"es-toolkit": "^1.9.0",
+		"jest": "^29.7.0",
+		"jest-environment-jsdom": "^29.7.0",
+		"ts-jest": "^29.2.2",
+		"tslib": "^2.6.3",
 		"typescript": "^5.5.3"
 	}
 }
